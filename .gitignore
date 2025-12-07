@@ -1,0 +1,41 @@
+# === Compiled binaries ===
+dfc
+dfs
+
+# Object files
+*.o
+
+# === DFS storage directories created at runtime ===
+dfs1/
+dfs2/
+dfs3/
+dfs4/
+
+# === Temporary chunk files created by dfc ===
+*.chunk
+
+# === Sample files downloaded by grade.py ===
+wine3.jpg
+apple_ex.png
+sample_file/
+dfc.conf
+
+# === Python cache / bytecode ===
+__pycache__/
+*.pyc
+*.pyo
+
+# === Logs ===
+*.log
+
+# === macOS junk ===
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# === Linux/Unix editor backups ===
+*~
+*.swp
+*.swo
+
+# === VSCode / CLion / IDE stuff =
